@@ -1,5 +1,5 @@
 def is_leap(year):
-    if year % 4 == 0 and not year % 100 == 0 or year % 400:
+    if (year % 4 == 0) and not (year % 100 == 0) or (year % 400):
         is_leap = ("True")
     else:
         is_leap = ("False")
